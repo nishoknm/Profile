@@ -1,3 +1,90 @@
+o.d.e.w.Word2VecRawTextExample - Load & Vectorize Sentences....
+o.d.e.w.Word2VecRawTextExample - Building model....
+Feb 10, 2016 2:38:00 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+Feb 10, 2016 2:38:01 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded C:\Users\Nishok\AppData\Local\Temp\jniloader6167309780995651633netlib-native_ref-win-x86_64.dll
+****************************************************************
+WARNING: COULD NOT LOAD NATIVE SYSTEM BLAS
+ND4J performance WILL be reduced
+Please install native BLAS library such as OpenBLAS or IntelMKL
+See http://nd4j.org/getstarted.html#open for further details
+****************************************************************
+o.d.e.w.Word2VecRawTextExample - Fitting Word2Vec model....
+o.d.m.s.SequenceVectors - Starting vocabulary building...
+o.d.m.w.w.VocabConstructor - Sequences checked: [97162], Current vocabulary size: [242]
+o.d.m.s.SequenceVectors - Building learning algorithms:
+o.d.m.s.SequenceVectors -           building ElementsLearningAlgorithm: [SkipGram]
+o.d.m.s.SequenceVectors - Starting learning process...
+o.d.m.s.SequenceVectors - Epoch: [1]; Words vectorized so far: [634303];  Lines vectorized so far: [97162]; learningRate: [1.0E-4]
+o.d.e.w.Word2VecRawTextExample - Writing word vectors to text file....
+o.d.m.e.l.WordVectorSerializer - Wrote 242 with size of 100
+o.d.e.w.Word2VecRawTextExample - Closest Words:
+[game, week, set, year, night, season, time, -, group, second]
+INFO  [2016-02-10 19:38:19,972] org.eclipse.jetty.util.log: Logging initialized @21610ms
+INFO  [2016-02-10 19:38:20,208] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: assets for path /assets/*
+      port: 8080
+      port: 8081
+WARN  [2016-02-10 19:38:20,453] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class org.deeplearning4j.ui.exception.GenericExceptionMapper: Existing previous registration found for the type.
+
+INFO  [2016-02-10 19:38:20,467] io.dropwizard.server.ServerFactory: Starting UiServer
+WARN  [2016-02-10 19:38:20,529] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class io.dropwizard.jersey.jackson.JsonProcessingExceptionMapper: Existing previous registration found for the type.
+
+INFO  [2016-02-10 19:38:20,657] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1931d99{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-02-10 19:38:20,658] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@6a9950f1{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-02-10 19:38:20,668] org.eclipse.jetty.server.Server: jetty-9.2.9.v20150224
+INFO  [2016-02-10 19:38:22,325] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /word2vec (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsResource)
+    GET     /word2vec/{path} (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsResource)
+    POST    /word2vec/upload (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsResource)
+    POST    /word2vec/vocab (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsResource)
+    POST    /word2vec/words (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsResource)
+    GET     /tsne (org.deeplearning4j.ui.tsne.TsneResource)
+    GET     /tsne/{path} (org.deeplearning4j.ui.tsne.TsneResource)
+    POST    /tsne/upload (org.deeplearning4j.ui.tsne.TsneResource)
+    POST    /tsne/vocab (org.deeplearning4j.ui.tsne.TsneResource)
+    GET     /activations (org.deeplearning4j.ui.activation.ActivationsResource)
+    GET     /activations/img (org.deeplearning4j.ui.activation.ActivationsResource)
+    POST    /activations/update (org.deeplearning4j.ui.activation.ActivationsResource)
+    GET     /{path} (org.deeplearning4j.ui.weights.WeightResource)
+    GET     /{path}/data (org.deeplearning4j.ui.weights.WeightResource)
+    GET     /{path}/updated (org.deeplearning4j.ui.weights.WeightResource)
+    POST    /{path}/update (org.deeplearning4j.ui.weights.WeightResource)
+    GET     /filters (org.deeplearning4j.ui.renders.RendersResource)
+    GET     /filters/img (org.deeplearning4j.ui.renders.RendersResource)
+    POST    /filters/update (org.deeplearning4j.ui.renders.RendersResource)
+    GET     /nearestneighbors (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    GET     /nearestneighbors/{path} (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    POST    /nearestneighbors/update (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    POST    /nearestneighbors/upload (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    POST    /nearestneighbors/vocab (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    POST    /nearestneighbors/words (org.deeplearning4j.ui.nearestneighbors.NearestNeighborsResource)
+    GET     /api/coords (org.deeplearning4j.ui.api.ApiResource)
+    GET     /api/{path} (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/update (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/upload (org.deeplearning4j.ui.api.ApiResource)
+
+INFO  [2016-02-10 19:38:22,339] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@44784e2f{/,null,AVAILABLE}
+INFO  [2016-02-10 19:38:22,347] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2016-02-10 19:38:22,347] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2016-02-10 19:38:22,362] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@593a6726{/,null,AVAILABLE}
+INFO  [2016-02-10 19:38:22,571] org.eclipse.jetty.server.ServerConnector: Started application@1931d99{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-02-10 19:38:22,588] org.eclipse.jetty.server.ServerConnector: Started admin@6a9950f1{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-02-10 19:38:22,589] org.eclipse.jetty.server.Server: Started @24230ms
+Started on port 8080
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 *,
@@ -814,6 +901,10 @@ body {
     margin-right: 12px;
 }
 
+.item-box:hover {
+    background-color: #D8D6D6;
+}
+
 .item-box i.icon-envelope {}
 
 .item-box .item-data {
@@ -830,6 +921,11 @@ body {
     margin: 0px;
     font-size: 12px;
     color: #999;
+}
+
+.text-center {
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -1232,7 +1328,9 @@ Change widths as necessary
     }
     /* 3 COLUMN GRID */
     .g1 {
-        width: 31.333%
+        width: 31.333%;
+        /*Temporary fix for spacing*/
+        padding-top: 10px;
     }
     .g2 {
         width: 64.667%;
