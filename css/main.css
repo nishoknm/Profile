@@ -459,7 +459,7 @@ dt {
 
 a {
     text-decoration: none;
-    color: #E74C3C;
+    color: #4595BD;
     -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
     -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
     -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -472,7 +472,7 @@ a:focus,
 a:active {
     text-decoration: none;
     border: none;
-    color: #C0392B
+    color: #137CBD
 }
 
 
@@ -538,7 +538,7 @@ del {
 }
 
 ::-moz-selection {
-    background: #E74C3C;
+    background: #4595BD;
     color: #fff;
     text-shadow: none
 }
@@ -547,7 +547,7 @@ del {
 /* selected text */
 
 ::selection {
-    background: #E74C3C;
+    background: #4595BD;
     color: #fff;
     text-shadow: none
 }
@@ -764,7 +764,7 @@ body {
     padding: 30px 20px;
     background: #fff;
     border: 1px solid #f1f1f1;
-    box-shadow: 0px 6px #c0392b;
+    box-shadow: 0px 6px #137CBD;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -805,7 +805,7 @@ body {
 
 .tab a.active {
     padding-top: 10px;
-    color: #e74c3c;
+    color: #4595BD;
 }
 
 .tab a i {
@@ -902,7 +902,8 @@ body {
 }
 
 .item-box:hover {
-    background-color: #D8D6D6;
+    background-color: #D8D6D61;
+    color: #137CBD;
 }
 
 .item-box i.icon-envelope {}
@@ -972,7 +973,7 @@ body {
     overflow: hidden;
     width: 100%;
     height: 99%;
-    background-color: rgba(231, 76, 60, .6);
+    background-color: rgba(121, 189, 206, 0.6);
     text-align: center;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -1035,7 +1036,7 @@ body {
     display: inline-block;
     margin: 0 10px 10px 0;
     padding: 14px 20px;
-    background: #E74C3C;
+    background: #4595BD;
     color: #fff;
     font-weight: bold;
     font-size: 13px;
@@ -1213,7 +1214,7 @@ body {
 }
 
 .pomengrate > span {
-    background-color: #c0392b;
+    background-color: #137CBD;
 }
 
 .asbestos > span {
