@@ -1235,6 +1235,12 @@ Change widths as necessary
         /*Temporary fix for spacing*/
         padding-top: 10px;
     }
+    /* 3 COLUMN GRID */
+    .img-g1 {
+        width: 46%;
+        /*Temporary fix for spacing*/
+        padding-top: 10px;
+    }
     .g2 {
         width: 64.667%;
     }
