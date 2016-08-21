@@ -907,7 +907,7 @@ body {
     position: relative;
     vertical-align: middle;
     margin: 0;
-    height: auto;
+    height: 330px;
 }
 
 .hovereffect h2 {
@@ -1317,7 +1317,7 @@ Change widths as necessary
     }
     /* 3 COLUMN GRID */
     .img-g1 {
-        width: 47.5%;
+        width: 31.33%;
         /*Temporary fix for spacing*/
         padding-top: 10px;
     }
