@@ -859,6 +859,11 @@ body {
     margin-bottom: 0;
 }
 
+.simple,
+.summary {
+    list-style-image: url('../images/pencil.png');
+}
+
 
 /* Portfolio */
 
